@@ -1,0 +1,137 @@
+td{
+    padding: 10px 25px 10px 25px;
+}
+
+tr{
+    padding: 10px 0px 0px 100px;
+}
+.box{
+    background-color: #0018A8;
+    margin-left: 90px;
+    margin-right: 110px;
+    margin-top:2%;
+    border: 1px solid black;
+}
+
+
+
+.tabList {
+    background-color: white;
+   
+} 
+
+.cardTitle{
+  display:flex;
+    flex-wrap:wrap;
+    background-color: #060b26;
+    color: white;
+    width:100%;
+    height: 20%;
+    padding-block-start: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .cardEmail{
+   
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   color: black;
+   transform: rotate(-0.0002deg)
+  }
+
+  .cardproblemStatement{
+    margin-top: 5px;
+    color:#060b26;
+    background-color: rgb(170, 200, 235);
+    padding:5px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    transform: rotate(-0.0002deg)
+
+  }
+
+  .cardDomain{
+    color: black;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   }
+
+   .cardMotto{
+    color: black;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+ 
+   }
+
+   .cardTags{
+   
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   
+   }
+
+   .blueBoxtitle{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    color: black;
+   }
+
+   Button{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   }
+
+   
+   textarea{
+    background-color: rgb(170, 200, 235);
+    resize:none;
+
+   }
+   
+   p{
+     color:black    ;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
+     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+     font-weight: bold;
+     
+   }
+
+   .card:hover{
+    transform: scale(1.1);
+    cursor:pointer ;
+   }
+
+   .searchBox{
+    margin-left: 600px;
+    width:30%;
+    align-items: center;
+    margin-top: 5%;
+  
+  }
+
+  .cp{
+    color: white;
+  }
+
+  .magnify{
+    position: absolute;
+    margin-top: 1%;
+    top:10%;
+    margin-left:43rem;
+  }
+  
+  .flag{
+    margin-left: 70%
+  }

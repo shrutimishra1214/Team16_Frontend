@@ -1,0 +1,117 @@
+:root {
+    --danger: #ff8a80;
+    --blue: #0d47a1;
+    --light: #bbdefb;
+  }
+  
+  body {
+    background-color: #dee9f8
+  }
+
+
+.body
+{
+    background-color: #292929;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+.demo
+{
+    color:black;
+    margin: auto;
+}
+
+.form {
+    width: 50%;
+    margin: 10rem auto;
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 0.4rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid var(--light);
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .form-label {
+    color: white;
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+
+  .button {
+    background-color: var(--light);
+    border: 2px solid var(--blue);
+    border-radius: 0.5rem;
+    color: var(--blue);
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 0.2rem 1rem;
+    transition: all 0.4rem ease-out;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: #333c5e;
+    font-weight: 100%;
+  }
+  
+  .button_center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button_right {
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+  }
+
+  .Logo {
+     margin-left: 90%;
+     width: 7%;
+     height: 7%;
+  } 
+
+  .logoutbutton{
+    background-color: rgb(172, 67, 67);
+    border-radius: 0.5rem;
+    color: black;
+    font-size: 1.4rem;
+    padding: 0.2rem 1rem;
+    transition: all 0.4rem ease-out;
+    cursor: pointer;
+    margin-top: 4rem;
+    margin-left: auto;
+  }
+
+  .logoutbutton:hover {
+    background-color: white;
+    color: red;
+    font-weight: 100%;
+  }
+
+  .profile {
+    background-color: #333c5e;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+    padding: 5%;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1rem;
+  }
